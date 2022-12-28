@@ -24,7 +24,7 @@ class MainActivity : AppCompatActivity() {
             binding.editTextHeight.setText("")
             binding.editTextWeight.setText("")
             binding.imageViewBMI.setImageResource(R.drawable.empty)
-            binding.textViewBMI.text = "@string/app_name"
+            binding.textViewBMI.text = ""
         }
         binding.buttonCalculate.setOnClickListener {
             if (binding.editTextHeight.text.isEmpty()) {
